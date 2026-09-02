@@ -6,11 +6,15 @@
 
 ## Installation
 
-Clone the repository:
+all in all command:
 
 ```bash
 pkg update && pkg upgrade -y
-pkg install root-repo git tsu python wpa-supplicant pixiewps iw -y git clone https://github.com/arifuzzamanshaon/shaon.git
+pkg install root-repo git tsu python wpa-supplicant pixiewps iw -y
+git clone https://github.com/arifuzzamanshaon/shaon
+cd shaon
+chmod +x installer.sh
+bash installer.sh
 ```
 
 Enter the project directory:
