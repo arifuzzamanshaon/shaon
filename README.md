@@ -100,6 +100,7 @@ For the full argument reference, run `wifux help` and select option 5.
 Run the built-in fix first:
 ```bash
 wifux fix
+
 ---
 **Common issues and fixes**
 | Problem | Fix |
@@ -125,11 +126,6 @@ WiFuX is provided for educational and authorized penetration testing purposes on
 ## Author
 **Arifuzzaman Shaon**
 
-| Platform | Link |
-|---|---|
-| GitHub | [msrofficial](https://github.com/arifuzzamanshaon) |
-| Facebook | [sakibur.msr](https://facebook.com/thearifuzzamanshaon) |
-| Instagram | [msr.sakibur](https://instagram.com/arifuzzamanshaon) |
 ---
 <div align="center">
 If WiFuX has been useful, consider leaving a star on GitHub.<br>
