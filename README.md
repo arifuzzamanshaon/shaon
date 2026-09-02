@@ -9,7 +9,8 @@
 Clone the repository:
 
 ```bash
-git clone https://github.com/arifuzzamanshaon/shaon.git
+pkg update && pkg upgrade -y
+pkg install root-repo git tsu python wpa-supplicant pixiewps iw -y git clone https://github.com/arifuzzamanshaon/shaon.git
 ```
 
 Enter the project directory:
