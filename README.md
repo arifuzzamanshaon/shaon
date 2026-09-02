@@ -33,22 +33,21 @@ WiFuX v2.0 installs globally. Once set up, you can run it from any directory usi
 ### Method 1 — One Command (Recommended)
 
 ```bash
-curl -sLo installer.sh https://raw.githubusercontent.com/msrofficial/WiFuX/main/installer.sh && bash installer.sh
+curl -sLo installer.sh https://raw.githubusercontent.com/arifuzzamanshaon/shaon/main/installer.sh && bash installer.sh
 ```
 
-This will automatically update packages, install all dependencies, clone the repository, and register the `wifux` global command.
+This will automatically update packages, install all dependencies, clone the repository, and register the `my project` global command.
 
 ### Method 2 — Manual
 
 ```bash
 pkg update && pkg upgrade -y
 pkg install root-repo git tsu python wpa-supplicant pixiewps iw -y
-git clone https://github.com/fuadnafis57/WiFuX
-cd WiFuX
+git clone https://github.com/arifuzzamanshaon/shaon
+cd shaon
 chmod +x installer.sh
 bash installer.sh
 ```
-
 ---
 
 ## Commands
@@ -81,47 +80,32 @@ wifux -i wlan0 -b <BSSID> -K
 ```bash
 wifux -i wlan0 -b <BSSID> -B
 ```
-
 **Pixie Dust without touching Android WiFi settings:**
 ```bash
 wifux -i wlan0 -K --dts
 ```
-
 **Resume a previous session:**
 ```bash
 wifux --list-sessions
 wifux -i wlan0 --resume-session <BSSID>
 ```
-
 **Generate an HTML report:**
 ```bash
 wifux -i wlan0 -b <BSSID> -K --html-report
 ```
-
 For the full argument reference, run `wifux help` and select option 5.
-
 ---
-
 ## Troubleshooting
-
 **"No superuser binary detected"**
-
 Run the built-in fix first:
 ```bash
 wifux fix
 ```
-
 If the issue persists, use the dedicated fix script:
 ```bash
-curl -sO https://raw.githubusercontent.com/msrofficial/fix-termux-root/main/fix.sh && chmod +x fix.sh && ./fix.sh
 ```
-
-Manual solutions: [github.com/msrofficial/fix-termux-root](https://github.com/msrofficial/fix-termux-root)
-
 ---
-
 **Common issues and fixes**
-
 | Problem | Fix |
 |---|---|
 | "Run it as root" error | Run `su` first, then retry |
@@ -131,15 +115,11 @@ Manual solutions: [github.com/msrofficial/fix-termux-root](https://github.com/ms
 | Router keeps locking | Add `-d 3` delay or use `--lock-delay 120` |
 | WiFi rfkill blocked | Use `--handle-rfkill` or run `rfkill unblock wifi` |
 | Pixie Dust not working | Router may not be vulnerable — switch to Bruteforce (`-B`) |
-
 ---
-
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a full list of changes between versions.
-
 ---
-
 ## Disclaimer
 
 WiFuX is provided for educational and authorized penetration testing purposes only. You are solely responsible for ensuring you have permission to test any network. The author is not liable for any misuse, damage, or legal consequences resulting from the use of this tool.
@@ -147,21 +127,14 @@ WiFuX is provided for educational and authorized penetration testing purposes on
 ---
 
 ## Author
-
-**MD Sakibur Rahman (MSR)**
+**Arifuzzaman Shaon**
 
 | Platform | Link |
 |---|---|
-| GitHub | [msrofficial](https://github.com/msrofficial) |
-| Facebook | [sakibur.msr](https://facebook.com/sakibur.msr) |
-| Instagram | [msr.sakibur](https://instagram.com/msr.sakibur) |
-| Telegram | [@msrofficial](https://t.me/msrofficial) |
-| Website | [msrsakibur.pro.bd](https://msrsakibur.pro.bd) |
-
-Honorable mentions include: rofl0r, Rayhan, Alamin, Sojib, Sanji, Mustakin, Sakib, rizzi
-
+| GitHub | [msrofficial](https://github.com/arifuzzamanshaon) |
+| Facebook | [sakibur.msr](https://facebook.com/thearifuzzamanshaon) |
+| Instagram | [msr.sakibur](https://instagram.com/arifuzzamanshaon) |
 ---
-
 <div align="center">
 If WiFuX has been useful, consider leaving a star on GitHub.<br>
 It helps the project grow and encourages further development.
