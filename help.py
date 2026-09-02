@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ─────────────────────────────────────────────
-#  WiFuX Help Guide — by MSR
+#  WiFuX Help Guide — by Shaon
 #  Run: wifux help
 # ─────────────────────────────────────────────
 
@@ -37,14 +37,14 @@ def pause():
 
 def banner():
     print(f'''\033[1;32m
-██╗    ██╗██╗███████╗██╗   ██╗██╗  ██╗
-██║    ██║██║██╔════╝██║   ██║╚██╗██╔╝
-██║ █╗ ██║██║█████╗  ██║   ██║ ╚███╔╝
-██║███╗██║██║██╔══╝  ██║   ██║ ██╔██╗
-╚███╔███╔╝██║██║     ╚██████╔╝██╔╝ ██╗
- ╚══╝╚══╝ ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝\033[0m
-{C}         Help Guide — v2.0{RS}
-{M}         ★ Stay With MSR{RS}
+███████╗██╗  ██╗ █████╗  ██████╗ ███╗   ██╗
+██╔════╝██║  ██║██╔══██╗██╔═══██╗████╗  ██║
+███████╗███████║███████║██║   ██║██╔██╗ ██║
+╚════██║██╔══██║██╔══██║██║   ██║██║╚██╗██║
+███████║██║  ██║██║  ██║╚██████╔╝██║ ╚████║
+╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝\033[0m
+{C}         Help Guide — v3.0{RS}
+{M}         ★ Stay With Shaon{RS}
 ''')
 
 # ────────────────────────────────────────────
@@ -573,7 +573,7 @@ def section_warnings():
   GitHub  : {C}msrofficial{RS}
   Website : {C}https://msrsakibur.netlify.app{RS}
 
-{TIP} {M}Stay With MSR — Stay safe, stay ethical.{RS}
+{TIP} {M}Stay With Shaon — Stay safe, stay ethical.{RS}
 ''')
     pause()
 
@@ -653,7 +653,7 @@ def main():
         choice = show_menu()
         if choice == '0':
             clear()
-            print(f'\n{M}  ★ Stay With MSR — Thanks for using WiFuX!{RS}\n')
+            print(f'\n{M}  ★ Stay With Shaon — Thanks for using WiFuX!{RS}\n')
             sys.exit(0)
         elif choice in handlers:
             handlers[choice]()
