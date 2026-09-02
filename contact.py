@@ -8,28 +8,28 @@ import sys
 #  Social Media Links — MSR Sakibur
 # ─────────────────────────────────────────────
 CONTACTS = {
-    1: {"name": "Facebook",   "url": "https://m.facebook.com/sakibur.msr"},
-    2: {"name": "Instagram",  "url": "https://instagram.com/msr.sakibur"},
-    3: {"name": "Telegram",   "url": "https://t.me/msrofficial"},
-    4: {"name": "GitHub",     "url": "https://github.com/msrofficial"},
-    5: {"name": "TG Group",   "url": "https://t.me/msrpatchchat"},
+    1: {"name": "Facebook",   "url": "https://m.facebook.com/thearifuzzamanshaon"},
+    2: {"name": "Instagram",  "url": "https://instagram.com/arifuzzamanshaon"},
+    3: {"name": "Telegram",   "url": "https://t.me/shaonofficial"},
+    4: {"name": "GitHub",     "url": "https://github.com/arifuzzamanshaon"},
+    5: {"name": "TG Group",   "url": "https://t.me/wishaon"},
 }
 
 # ─────────────────────────────────────────────
 
 def banner():
     print('''\033[1;32m
-███╗   ███╗███████╗██████╗ 
-████╗ ████║██╔════╝██╔══██╗
-██╔████╔██║███████╗██████╔╝
-██║╚██╔╝██║╚════██║██╔══██╗
-██║ ╚═╝ ██║███████║██║  ██║
-╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝\033[0m
+███████╗██╗  ██╗ █████╗  ██████╗ ███╗   ██╗
+██╔════╝██║  ██║██╔══██╗██╔═══██╗████╗  ██║
+███████╗███████║███████║██║   ██║██╔██╗ ██║
+╚════██║██╔══██║██╔══██║██║   ██║██║╚██╗██║
+███████║██║  ██║██║  ██║╚██████╔╝██║ ╚████║
+╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝\033[0m
 ''')
 
 def show_menu():
     print('\033[1;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m')
-    print('\033[1;33m  Contact MSR Sakibur — Choose a Platform\033[0m')
+    print('\033[1;33m  Contact Arifuzzaman Shaon — Choose a Platform\033[0m')
     print('\033[1;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m')
     print()
     for num, info in CONTACTS.items():
@@ -66,7 +66,7 @@ def open_url(url):
 def goodbye():
     print()
     print('\033[1;36m╭──────────────────────────────────────────╮\033[0m')
-    print('\033[1;36m│\033[0m        \033[1;32mSee you! — Stay With MSR\033[0m          \033[1;36m│\033[0m')
+    print('\033[1;36m│\033[0m        \033[1;32mSee you! — Assalamu-alaikum\033[0m          \033[1;36m│\033[0m')
     print('\033[1;36m╰──────────────────────────────────────────╯\033[0m')
     print()
 
