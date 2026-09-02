@@ -100,10 +100,6 @@ For the full argument reference, run `wifux help` and select option 5.
 Run the built-in fix first:
 ```bash
 wifux fix
-```
-If the issue persists, use the dedicated fix script:
-```bash
-```
 ---
 **Common issues and fixes**
 | Problem | Fix |
