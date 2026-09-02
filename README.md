@@ -1,28 +1,15 @@
 <div align="center">
 
 ```
-██╗    ██╗██╗███████╗██╗   ██╗██╗  ██╗
-██║    ██║██║██╔════╝██║   ██║╚██╗██╔╝
-██║ █╗ ██║██║█████╗  ██║   ██║ ╚███╔╝
-██║███╗██║██║██╔══╝  ██║   ██║ ██╔██╗
-╚███╔███╔╝██║██║     ╚██████╔╝██╔╝ ██╗
- ╚══╝╚══╝ ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝
+Shaon
 ```
 
-**WiFuX v2.0** — WPS Security Auditing Tool for Android / Termux
+**My Project v2.0** — WPS Security Auditing Tool for Android / Termux
 
-[![Version](https://img.shields.io/badge/version-2.0-brightgreen)](https://github.com/msrofficial/WiFuX/releases)
-[![Platform](https://img.shields.io/badge/platform-Android%20%2F%20Termux-blue)](https://termux.dev)
-[![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=msrofficial.wifux)](https://github.com/msrofficial/WiFuX)
-
-</div>
-
----
 
 ## Overview
 
-WiFuX is a WPS (Wi-Fi Protected Setup) security auditing tool built for Android devices running Termux. It automates Pixie Dust and Bruteforce attacks against WPS-enabled routers, allowing security researchers and network administrators to evaluate the strength of their own wireless infrastructure.
+My Project is a WPS (Wi-Fi Protected Setup) security auditing tool built for Android devices running Termux. It automates Pixie Dust and Bruteforce attacks against WPS-enabled routers, allowing security researchers and network administrators to evaluate the strength of their own wireless infrastructure.
 
 WiFuX v2.0 is a complete rewrite of the original v1 engine, introducing a global command system, session management, reporting, improved stability, and a built-in interactive help guide — all optimized for Android / Termux.
 
@@ -30,13 +17,7 @@ WiFuX v2.0 is a complete rewrite of the original v1 engine, introducing a global
 
 ---
 <div align="center">
-
-[![Support this project](https://img.shields.io/badge/Support%20this%20project-FFD700?style=for-the-badge&logo=ko-fi&logoColor=black)](https://www.supportkori.com/msrsakibur)
  
-  <a href="https://youtu.be/Y73jDqTqkxI">
-    <img src="https://img.shields.io/badge/wifux_full_setup_video_tutorial-2EA043?style=for-the-badge&logo=android&logoColor=white" alt="WiFuX Full Setup Video Tutorial">
-  </a><br> </div>
-
 ## Requirements
 
 - Android device with root access (Magisk or KernelSU)
