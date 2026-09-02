@@ -100,7 +100,7 @@ For the full argument reference, run `wifux help` and select option 5.
 Run the built-in fix first:
 ```bash
 wifux fix
-
+```
 ---
 **Common issues and fixes**
 | Problem | Fix |
